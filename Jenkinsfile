@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git url: '<https://github.com/Nikysy/jenkins>', branch: '<main>'
+                git url: '<https://github.com/Nikysy/jenkins.git>', branch: '<main>'
             }
         }
         stage('Install') {
